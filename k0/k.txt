@@ -1,0 +1,37 @@
+What is a Ticker Symbol? -- A ticker symbol or stock symbol is an abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market. (e.g. For Microsoft it is MSFT).
+
+How to find a ticker symbol? -- Google search (Company Name + Ticker Symbol), SEC report, Official website, Marketwatch.com, Yahoo Financials, finance.yahoo.com are some sources to find the ticker symbol.
+
+What if a company doesn’t have a ticker symbol? -- Leave it blank.
+
+What does revenue mean? -- Revenue is the total income reported for a company in a particular financial year.
+
+In which format does Qore considers revenue? -- You should fill revenues in USD format only. Write revenues in units of million or billion along with prefixing (million, billion) after each record (e.g. 10.24 million or 23 Billion).
+
+What is to be done for companies where revenue is reported in a different currency (other than USD)? -- You should convert the revenues in USD before adding to the Qore platform. Use currency converter on Google or use websites such as Investopedia, xe.com.
+
+From where do we find revenue for a company? -- Revenues for a company can be found on official website/ annual report /SEC report.
+
+What if I don’t find revenue from any above sources? -- Check revenue information from Fortune.com (only add revenues from Fortune if you do not find it in any other sources listed above).
+
+What do you consider as revenue (if we don’t find revenue listed as a line item in any source)? -- You should consider Net income/ Total Sales if you do not find it as a line item listed in official website, annual report or SEC report. Cross confirm the numbers with Fortune.com (Only add revenues under different header post confirming from Fortune.com).
+
+If I am not able to find revenues in any of the above source, what should I do? -- Consider current year Q4 (last quarter) report/ filings and only add revenues if it is reported for the full year (do not add revenues reported for a quarter).
+
+What does a reporting date indicate? -- The reporting date is the last day of the reporting period to which the financial statements relate.
+
+What should be included in a reporting date? -- The reporting date from the source from where the information is picked up (e.g. End of fiscal year (For 31st March add 31/03/2021 for December add 31/12/2021 etc).
+
+What is an employee count? -- It refers to the total headcount/ manpower/ workforce/ employees count in a company.
+
+What are the sources for gathering information on employee count? -- Annual report, SEC report, Official website, Fortune.com.
+
+What is the correct format of an employee count? -- Correct format is a number. Do not enter ranges.
+
+Are temporary employees to be considered as a part of the total employee count? -- No temporary employees/ interns are not to be considered as a part of the total number of employees.
+
+What is a reporting year? -- Reporting year is the year in which financials are reported by a company. (E.g. Jan to Dec 2022, Apr to March 2021).
+
+What is a correct reporting year? -- The correct reporting year to be included on the Qore platform is the latest financial year.
+
+What if I do not find latest financial year reports of any company? -- Consider SEC/ Annual reports / Reported numbers from last 2 years (Reports of any other year prior to that is considered incorrect).
